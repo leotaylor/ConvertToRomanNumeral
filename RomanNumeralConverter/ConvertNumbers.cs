@@ -14,6 +14,18 @@ namespace RomanNumeralConverter
             {
                 romanNumeral = "I";
             }
+            if (number == 4)
+            {
+                romanNumeral = "IV";
+            }
+            if (number == 5)
+            {
+                romanNumeral = "V";
+            }
+            if (number == 9)
+            {
+                romanNumeral = "IX";
+            }
             return romanNumeral;
         }
     }
